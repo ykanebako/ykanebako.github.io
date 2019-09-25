@@ -11,10 +11,12 @@ cd public
 git add .
 
 # Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
+# 
+# msg="rebuilding site `date`"
+# if [ $# -eq 1 ]
+#   then msg="$1"
+# fi
+msg = "update"
 git commit -m "$msg"
 
 # Push source and build repos.

@@ -1,0 +1,5 @@
+baseURL = "https://reinlearn.github.io"
+languageCode = "en-us"
+title = "reinlog"
+theme = "charaka-hugo-theme"
+

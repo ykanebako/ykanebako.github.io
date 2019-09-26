@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>reinlog</title>
     <link>https://reinlearn.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Sep 2019 00:26:04 +0900</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Firstpost</title>
+      <title>Hello World!</title>
       <link>https://reinlearn.github.io/posts/firstpost/</link>
       <pubDate>Fri, 27 Sep 2019 00:26:04 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/firstpost/</guid>
-      <description>hello world! this is my first post!!</description>
+      <description>this is my first post!!</description>
     </item>
     
   </channel>

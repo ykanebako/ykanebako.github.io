@@ -6,10 +6,23 @@
     <description>Recent content in Posts on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2019 01:22:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 22:54:27 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[daily] Sep 30, 2019</title>
+      <link>https://reinlearn.github.io/posts/201909/20190930/</link>
+      <pubDate>Mon, 30 Sep 2019 22:54:27 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/201909/20190930/</guid>
+      <description>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．
+ Hugo に MathJax を導入して数式を書けるようにする ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)
+$$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$   と書くと，
+$$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
+のように埋め込める．</description>
+    </item>
     
     <item>
       <title>[daily] Sep 27, 2019</title>

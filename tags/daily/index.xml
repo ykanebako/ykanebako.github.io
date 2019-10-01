@@ -24,16 +24,5 @@ $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
 のように埋め込める．</description>
     </item>
     
-    <item>
-      <title>[daily] Sep 27, 2019</title>
-      <link>https://reinlearn.github.io/posts/201909/20190927/</link>
-      <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
-      
-      <guid>https://reinlearn.github.io/posts/201909/20190927/</guid>
-      <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなのでここで少しずつ公開してみる．
-ここのブログは Hugo + Github Pages で構築しており，構築にあたり以下のサイトを参照した．
- 公式サイトの Quick Start 公式サイトの Host on Github Hugo + GitHub Pages でブログのプロトタイプを構築してみた。  </description>
-    </item>
-    
   </channel>
 </rss>

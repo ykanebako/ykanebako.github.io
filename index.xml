@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>[daily] Sep 30, 2019</title>
+      <title>Hugo で数式を書けるようにした</title>
       <link>https://reinlearn.github.io/posts/201909/20190930/</link>
       <pubDate>Mon, 30 Sep 2019 22:54:27 +0900</pubDate>
       
@@ -25,13 +25,13 @@ $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
     </item>
     
     <item>
-      <title>[daily] Sep 27, 2019</title>
+      <title>Hugo &#43; GitHub Pages でブログをつくった</title>
       <link>https://reinlearn.github.io/posts/201909/20190927/</link>
       <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/201909/20190927/</guid>
-      <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなのでここで少しずつ公開してみる．
-ここのブログは Hugo + Github Pages で構築しており，構築にあたり以下のサイトを参照した．
+      <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．
+構築にあたり以下のサイトを参照した．
  公式サイトの Quick Start 公式サイトの Host on Github Hugo + GitHub Pages でブログのプロトタイプを構築してみた。  </description>
     </item>
     

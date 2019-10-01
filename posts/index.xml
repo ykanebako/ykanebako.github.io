@@ -55,5 +55,14 @@ $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
       <description>this is my first post!!</description>
     </item>
     
+    <item>
+      <title>ToDo</title>
+      <link>https://reinlearn.github.io/posts/todo/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/todo/</guid>
+      <description> ソースコード埋め込み カテゴリ(tag)，日付でまとめる  </description>
+    </item>
+    
   </channel>
 </rss>

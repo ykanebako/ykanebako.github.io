@@ -6,7 +6,7 @@
 
 
 
-<title>Hugo で数式を書けるようにした | reinlog</title>
+<title>CNN のカーネルサイズについてのメモ | reinlog</title>
 
 <link rel="stylesheet" href="https://reinlearn.github.io//css/styles.css">
 
@@ -57,29 +57,23 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
   </div>
 
 <div class="container">
-  <h2 class="subtitle is-6">September 30, 2019</h2>
-  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">Hugo で数式を書けるようにした</h1>
+  <h2 class="subtitle is-6">October 3, 2019</h2>
+  <h1 class="subtitle is-size-4-mobile is-size-3-desktop">CNN のカーネルサイズについてのメモ</h1>
   <div class="content">
-    <p>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．</p>
+    <p>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．</p>
 
-<ul>
-<li><a href="https://m0t0k1ch1st0ry.com/blog/2017/10/07/mathjax/">Hugo に MathJax を導入して数式を書けるようにする</a></li>
+<p>5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．</p>
 
-<li><p><a href="https://maku77.github.io/hugo/settings/math-jax.html">ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)</a></p>
+<p>ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，<a href="https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363">Deciding optimal kernel size for CNN</a> に書かれていた説明がわかりやすかったのでメモ．</p>
 
-<pre><code>$$
-H(X) = -\sum_{i} P_i \mathrm{log} P_i
-$$
-</code></pre></li>
-</ul>
+<script src="https://gist.github.com/ssahooinf/7d0f785cd90f5a3b50d3d04e72f0ec34.js"></script>
 
-<p>と書くと，</p>
+<pre><code>&quot;Therefore captures smaller, complex features in the image.&quot;, &quot;Therefore captures the basic components in the image.
+&quot;
+&quot;Amount of information extracted will be vast, maybe useful in later layers.&quot;,&quot;Amount of information extracted are considerably lesser.&quot;
+</code></pre>
 
-<p>$$
-H(X) = -\sum_{i} P_i \mathrm{log} P_i
-$$</p>
-
-<p>のように埋め込める．</p>
+<p>小さいカーネルサイズの方が層数が多い場合に有効．（では層数が少ない場合は？）</p>
 
   </div>
 </div>

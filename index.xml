@@ -6,10 +6,22 @@
     <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2019 23:07:59 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2019 23:47:10 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CNN のカーネルサイズについてのメモ</title>
+      <link>https://reinlearn.github.io/posts/201910/20191003/</link>
+      <pubDate>Thu, 03 Oct 2019 23:47:10 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/201910/20191003/</guid>
+      <description>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．
+5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．
+ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，Deciding optimal kernel size for CNN に書かれていた説明がわかりやすかったのでメモ．
+ &amp;quot;Therefore captures smaller, complex features in the image.&amp;quot;, &amp;quot;Therefore captures the basic components in the image. &amp;quot; &amp;quot;Amount of information extracted will be vast, maybe useful in later layers.&amp;quot;,&amp;quot;Amount of information extracted are considerably lesser.</description>
+    </item>
     
     <item>
       <title>Disqus でコメントを書き込めるようにした</title>

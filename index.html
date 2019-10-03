@@ -64,6 +64,29 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
       
       <article class="columns">
         <div class="column is-2">
+          <h6 class="is-inline" style="white-space: nowrap">Oct 3</h2>
+        </div>
+        <div class="column">
+          <h2 class="subtitle is-inline is-size-4-mobile is-size-3-desktop"><a href="https://reinlearn.github.io/posts/201910/20191003/">CNN のカーネルサイズについてのメモ</a></h1>
+          <div class="content is-hidden-mobile">
+            最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．
+5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．
+ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，Deciding optimal kernel size for CNN に書かれていた説明がわかりやすかったのでメモ．
+ &quot;Therefore captures smaller, …
+            
+            <br>
+            <a class="button is-marginless is-paddingless" href="https://reinlearn.github.io/posts/201910/20191003/">
+            <span class="icon-link is-small" style="line-height: 100%">
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+              </span>
+              <p style="padding:0 5px"></p>more</p>
+            </a>
+            
+          </div>
+      </article>
+      
+      <article class="columns">
+        <div class="column is-2">
           <h6 class="is-inline" style="white-space: nowrap">Oct 1</h2>
         </div>
         <div class="column">
@@ -157,6 +180,19 @@ $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
     <p></p>
   </div>
 </section>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-149374194-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

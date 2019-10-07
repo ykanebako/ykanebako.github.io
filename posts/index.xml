@@ -6,10 +6,25 @@
     <description>Recent content in Posts on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2019 23:47:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2019 22:31:19 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>同じデータに異なる複数のラベルがついている場合について</title>
+      <link>https://reinlearn.github.io/posts/201910/20191007/</link>
+      <pubDate>Mon, 07 Oct 2019 22:31:19 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/201910/20191007/</guid>
+      <description>大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．
+実務ではアノテーション結果を確認する担当者や，1枚の画像に複数人でアノテーションして多数決結果を採用する，などアノテーション品質を担保することが考えられる．
+でも本当に大量にデータがあれば，1人がアノテーションを間違ってしまっても，似たようなデータに対して他の人が正しいアノテーションを施していれば最尤推定のような結果が得られ，わざわざアノテーション結果を確認したり，複数人で多数決を取る必要も無いのでは？
+まず簡単に，同じデータに対して複数の異なるラベルがついている状況を考える．識別器をNNとして最尤推定を考えると多数派のラベルに分類されるはず．またラベル比率が同数の場合は分類されるクラスはモデルの初期値に依存するはず．
+実験結果
+確かにそのような結果になる．
+次回以降，同じデータではなく，似たような画像に異なるラベルがついている場合を考える．問題設定としては Noisy Labels の問題．</description>
+    </item>
     
     <item>
       <title>CNN のカーネルサイズについてのメモ</title>

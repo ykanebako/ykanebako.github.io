@@ -65,6 +65,21 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
       
       <article class="columns">
         <div class="column is-2">
+          <h6 class="is-inline" style="white-space: nowrap">Oct 7</h2>
+        </div>
+        <div class="column">
+          <h2 class="subtitle is-inline is-size-4-mobile is-size-3-desktop"><a href="https://reinlearn.github.io/posts/201910/20191007/">同じデータに異なる複数のラベルがついている場合について</a></h1>
+          <div class="content is-hidden-mobile">
+            大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．
+実務ではアノテーション結果を確認する担当者や，1枚の画像に複数人でアノテーションして多数決結果を採用する，などアノテーション品質を担保することが考えられる．
+でも本当に大量にデータがあれば，1人がアノテーションを間違ってしまっても，似たようなデータに対して他の人が正しいアノテーションを施していれば最尤推定のような結果が得られ，わざわざアノテーション結果を確認したり，複数人で多数決を取る必要も無いのでは？
+まず簡単に，同じデータに対して複数の異なるラベルがついている状況を考える．識別器をNNとして最尤推定を考えると多数派のラベルに分類されるはず．またラベル比率が同数の …
+            
+          </div>
+      </article>
+      
+      <article class="columns">
+        <div class="column is-2">
           <h6 class="is-inline" style="white-space: nowrap">Oct 3</h2>
         </div>
         <div class="column">

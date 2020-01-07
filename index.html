@@ -87,7 +87,7 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
             最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．
 5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．
 ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，Deciding optimal kernel size for CNN に書かれていた説明がわかりやすかったのでメモ．
- &quot;Therefore captures smaller, …
+&quot;Therefore captures smaller, complex …
             
             <br>
             <a class="button is-marginless is-paddingless" href="https://reinlearn.github.io/posts/201910/20191003/">
@@ -122,8 +122,7 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
           <h2 class="subtitle is-inline is-size-4-mobile is-size-3-desktop"><a href="https://reinlearn.github.io/posts/201909/20190930/">Hugo で数式を書けるようにした</a></h1>
           <div class="content is-hidden-mobile">
             GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．
- Hugo に MathJax を導入して数式を書けるようにする ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)
-$$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$   と書くと，
+ Hugo に MathJax を導入して数式を書けるようにする ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)  $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$ と書くと，
 $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
 のように埋め込める．
             
@@ -139,7 +138,16 @@ $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
           <div class="content is-hidden-mobile">
             最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．
 構築にあたり以下のサイトを参照した．
- 公式サイトの Quick Start 公式サイトの Host on Github Hugo + GitHub Pages でブログのプロトタイプを構築してみた。  
+ 公式サイトの Quick Start 公式サイトの Host on Github Hugo + GitHub Pages でブログのプロトタイプを構築してみた。   2020/01/07 追記 久しぶりに更新しようと思ったらブログや記事の作り方を忘れてしまっていたので，具体的な手順を自分でも書いておく．
+環境  Ubuntu 18.04 LTS Hugo 0.62.2  手順 1. 新しいサイトを作る $ hugo new site PROJECT_NAME 2. Hugo を起動する 生成された PROJECT_NAME フォルダ以下に移動し …
+            
+            <br>
+            <a class="button is-marginless is-paddingless" href="https://reinlearn.github.io/posts/201909/20190927/">
+            <span class="icon-link is-small" style="line-height: 100%">
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+              </span>
+              <p style="padding:0 5px"></p>more</p>
+            </a>
             
           </div>
       </article>

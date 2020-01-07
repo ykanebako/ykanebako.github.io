@@ -61,19 +61,13 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
   <h1 class="subtitle is-size-4-mobile is-size-3-desktop">CNN のカーネルサイズについてのメモ</h1>
   <div class="content">
     <p>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．</p>
-
 <p>5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．</p>
-
 <p>ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，<a href="https://towardsdatascience.com/deciding-optimal-filter-size-for-cnns-d6f7b56f9363">Deciding optimal kernel size for CNN</a> に書かれていた説明がわかりやすかったのでメモ．</p>
-
-<script src="https://gist.github.com/ssahooinf/7d0f785cd90f5a3b50d3d04e72f0ec34.js"></script>
-
+<!-- raw HTML omitted -->
 <pre><code>&quot;Therefore captures smaller, complex features in the image.&quot;, &quot;Therefore captures the basic components in the image.
 &quot;
 &quot;Amount of information extracted will be vast, maybe useful in later layers.&quot;,&quot;Amount of information extracted are considerably lesser.&quot;
-</code></pre>
-
-<p>小さいカーネルサイズの方が複雑な特徴量が大量に得られるため，深い層にとってより有用な情報が得られているはず．（では層数が少ない場合は？）</p>
+</code></pre><p>小さいカーネルサイズの方が複雑な特徴量が大量に得られるため，深い層にとってより有用な情報が得られているはず．（では層数が少ない場合は？）</p>
 
   </div>
 </div>

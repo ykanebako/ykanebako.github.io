@@ -61,14 +61,39 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
   <h1 class="subtitle is-size-4-mobile is-size-3-desktop">Hugo &#43; GitHub Pages でブログをつくった</h1>
   <div class="content">
     <p>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．</p>
-
 <p>構築にあたり以下のサイトを参照した．</p>
-
 <ul>
 <li><a href="https://gohugo.io/getting-started/quick-start/">公式サイトの Quick Start</a></li>
 <li><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">公式サイトの Host on Github</a></li>
 <li><a href="https://qiita.com/h6m3_u/items/5893a61091d258936716">Hugo + GitHub Pages でブログのプロトタイプを構築してみた。</a></li>
 </ul>
+<hr>
+<p>2020/01/07 追記
+久しぶりに更新しようと思ったらブログや記事の作り方を忘れてしまっていたので，具体的な手順を自分でも書いておく．</p>
+<h1 id="環境">環境</h1>
+<ul>
+<li>Ubuntu 18.04 LTS</li>
+<li>Hugo 0.62.2</li>
+</ul>
+<h1 id="手順">手順</h1>
+<h2 id="1-新しいサイトを作る">1. 新しいサイトを作る</h2>
+<pre><code>$ hugo new site PROJECT_NAME
+</code></pre><h2 id="2-hugo-を起動する">2. Hugo を起動する</h2>
+<p>生成された PROJECT_NAME フォルダ以下に移動して，hugo を起動する</p>
+<pre><code>hugo server
+</code></pre><p><a href="http://localhost:1313">http://localhost:1313</a> にアクセスできることを確認する．</p>
+<h2 id="3-テーマを追加する">3. テーマを追加する</h2>
+<p>手順1. の時点で PROJECT_NAME フォルダ以下に themes フォルダが作れるので，<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> から好みのテーマを clone する．</p>
+<p>clone したテーマ名を config.toml に書き込む．</p>
+<pre><code>theme = &quot;ananke&quot;
+</code></pre><p>のように．</p>
+<h2 id="4-コンテンツを追加する">4. コンテンツを追加する</h2>
+<pre><code>hugo new posts/first_post.md
+</code></pre><h2 id="5-github-pages-でホスティングする">5. GitHub Pages でホスティングする</h2>
+<p><a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
+<p>の Step-by-step Instructions を参考に設定する．</p>
+<p>public はホストするリポジトリで保存，それ以外も別途リポジトリで保存（こっちは private に設定していてもOK）．</p>
+<p>deploy.sh を作っておくと便利．</p>
 
   </div>
 </div>

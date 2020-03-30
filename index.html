@@ -67,6 +67,38 @@ integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbi
           <h6 class="is-inline" style="white-space: nowrap">Mar 30</h2>
         </div>
         <div class="column">
+          <h2 class="subtitle is-inline is-size-5-mobile is-size-5-desktop"><a href="https://reinlearn.github.io/posts/202003/20200330_3/">pyenv 環境下で git submodule が使えなくなったときのメモ</a></h1>
+          <div class="content is-hidden-mobile is-hidden-desktop">
+            git submodule コマンドを使おうとしたら pyenv のパスを参照して gettext.sh が無いとエラーが出た．
+/usr/lib/git-core/git-submodule: 6: /home/USERNAME/.pyenv/shims/gettext.sh: [[: not found 解決方法 ここ を参照．
+The actual problem is in git-core. It seems it's trying to search gettext.sh from $PATH then source it. とのこと．
+$ export GIT_INTERNAL_GETTEXT_TEST_FALLBACKS=1 で解決できる
+            
+          </div>
+      </article>
+      
+      <article class="columns">
+        <div class="column is-2">
+          <h6 class="is-inline" style="white-space: nowrap">Mar 30</h2>
+        </div>
+        <div class="column">
+          <h2 class="subtitle is-inline is-size-5-mobile is-size-5-desktop"><a href="https://reinlearn.github.io/posts/202003/20200330_2/">hugoをgithub.io にホストできなくなったとき</a></h1>
+          <div class="content is-hidden-mobile is-hidden-desktop">
+            久しぶりに記事を記事を書いたら github.io にホストできなくなった．
+私の運用はhugo公式のStep-by-step Instructionsと同じ．
+解決方法 以下の手順で一度 public フォルダを削除したのち，再度 submodule 登録すればOK．
+publicフォルダを削除
+git rm -rf --cached public git submodule で再度登録
+git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public 
+            
+          </div>
+      </article>
+      
+      <article class="columns">
+        <div class="column is-2">
+          <h6 class="is-inline" style="white-space: nowrap">Mar 30</h2>
+        </div>
+        <div class="column">
           <h2 class="subtitle is-inline is-size-5-mobile is-size-5-desktop"><a href="https://reinlearn.github.io/posts/202003/20200330/">任意のバージョンの Hugo をインストールする</a></h1>
           <div class="content is-hidden-mobile is-hidden-desktop">
             自宅のPCをクリーンインストールした後，Hugoをインストールしたらデフォルトで0.40.1が入ってしまい，今使っているテーマは対応してないと言われた．

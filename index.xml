@@ -6,10 +6,36 @@
     <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2020 09:22:32 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 09:42:32 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>pyenv 環境下で git submodule が使えなくなったときのメモ</title>
+      <link>https://reinlearn.github.io/posts/202003/20200330_3/</link>
+      <pubDate>Mon, 30 Mar 2020 09:42:32 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202003/20200330_3/</guid>
+      <description>git submodule コマンドを使おうとしたら pyenv のパスを参照して gettext.sh が無いとエラーが出た．
+/usr/lib/git-core/git-submodule: 6: /home/USERNAME/.pyenv/shims/gettext.sh: [[: not found 解決方法 ここ を参照．
+The actual problem is in git-core. It seems it&#39;s trying to search gettext.sh from $PATH then source it. とのこと．
+$ export GIT_INTERNAL_GETTEXT_TEST_FALLBACKS=1 で解決できる</description>
+    </item>
+    
+    <item>
+      <title>hugoをgithub.io にホストできなくなったとき</title>
+      <link>https://reinlearn.github.io/posts/202003/20200330_2/</link>
+      <pubDate>Mon, 30 Mar 2020 09:32:32 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202003/20200330_2/</guid>
+      <description>久しぶりに記事を記事を書いたら github.io にホストできなくなった．
+私の運用はhugo公式のStep-by-step Instructionsと同じ．
+解決方法 以下の手順で一度 public フォルダを削除したのち，再度 submodule 登録すればOK．
+publicフォルダを削除
+git rm -rf --cached public git submodule で再度登録
+git submodule add -b master https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public </description>
+    </item>
     
     <item>
       <title>任意のバージョンの Hugo をインストールする</title>

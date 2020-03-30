@@ -6,10 +6,24 @@
     <description>Recent content in Posts on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2019 22:31:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2020 09:22:32 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>任意のバージョンの Hugo をインストールする</title>
+      <link>https://reinlearn.github.io/posts/202003/20200330/</link>
+      <pubDate>Mon, 30 Mar 2020 09:22:32 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202003/20200330/</guid>
+      <description>自宅のPCをクリーンインストールした後，Hugoをインストールしたらデフォルトで0.40.1が入ってしまい，今使っているテーマは対応してないと言われた．
+任意のバージョンをインストールする．
+環境 Ubuntu 18.04 LTS
+以下のコマンドでは0.40.1がインストールされる
+sudo apt install hugo 任意のバージョンをインストールには https://github.com/gohugoio/hugo/releases で配布されているdebパッケージをダウンロードして，
+sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をインストール）</description>
+    </item>
     
     <item>
       <title>同じデータに異なる複数のラベルがついている場合について</title>

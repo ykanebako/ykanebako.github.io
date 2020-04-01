@@ -75,7 +75,8 @@ sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をイ�
       <description>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．
 5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．
 ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，Deciding optimal kernel size for CNN に書かれていた説明がわかりやすかったのでメモ．
-&amp;quot;Therefore captures smaller, complex features in the image.&amp;quot;, &amp;quot;Therefore captures the basic components in the image. &amp;quot; &amp;quot;Amount of information extracted will be vast, maybe useful in later layers.&amp;quot;,&amp;quot;Amount of information extracted are considerably lesser.</description>
+こちらより
+   &amp;quot;Smaller Filter Sizes&amp;rdquo; &amp;quot;Larger Filter Sizes&amp;rdquo;     &amp;quot;It has a smaller receptive field as it looks at very few pixels at once.&amp;rdquo; &amp;quot;Larger receptive field per layer.</description>
     </item>
     
     <item>

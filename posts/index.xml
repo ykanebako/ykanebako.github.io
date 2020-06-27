@@ -17,10 +17,7 @@
       <pubDate>Mon, 30 Mar 2020 09:42:32 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/202003/20200330_3/</guid>
-      <description>git submodule コマンドを使おうとしたら pyenv のパスを参照して gettext.sh が無いとエラーが出た．
-/usr/lib/git-core/git-submodule: 6: /home/USERNAME/.pyenv/shims/gettext.sh: [[: not found 解決方法 ここ を参照．
-The actual problem is in git-core. It seems it&#39;s trying to search gettext.sh from $PATH then source it. とのこと．
-$ export GIT_INTERNAL_GETTEXT_TEST_FALLBACKS=1 で解決できる</description>
+      <description>git submodule コマンドを使おうとしたら pyenv のパスを参照して gettext.</description>
     </item>
     
     <item>
@@ -29,12 +26,7 @@ $ export GIT_INTERNAL_GETTEXT_TEST_FALLBACKS=1 で解決できる</description>
       <pubDate>Mon, 30 Mar 2020 09:32:32 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/202003/20200330_2/</guid>
-      <description>久しぶりに記事を記事を書いたら github.io にホストできなくなった．
-私の運用はhugo公式のStep-by-step Instructionsと同じ．
-解決方法 以下の手順で一度 public フォルダを削除したのち，再度 submodule 登録すればOK．
-publicフォルダを削除
-git rm -rf --cached public git submodule で再度登録
-git submodule add -b master https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public </description>
+      <description>久しぶりに記事を記事を書いたら github.</description>
     </item>
     
     <item>
@@ -43,12 +35,7 @@ git submodule add -b master https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;
       <pubDate>Mon, 30 Mar 2020 09:22:32 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/202003/20200330/</guid>
-      <description>自宅のPCをクリーンインストールした後，Hugoをインストールしたらデフォルトで0.40.1が入ってしまい，今使っているテーマは対応してないと言われた．
-任意のバージョンをインストールする．
-環境 Ubuntu 18.04 LTS
-以下のコマンドでは0.40.1がインストールされる
-sudo apt install hugo 任意のバージョンをインストールには https://github.com/gohugoio/hugo/releases で配布されているdebパッケージをダウンロードして，
-sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をインストール）</description>
+      <description>自宅のPCをクリーンインストールした後，Hugoをインストールしたらデフォルトで0.40.1が入ってしまい，今使っているテーマは対応してないと言われた．</description>
     </item>
     
     <item>
@@ -57,13 +44,7 @@ sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をイ�
       <pubDate>Mon, 07 Oct 2019 22:31:19 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/201910/20191007/</guid>
-      <description>大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．
-実務ではアノテーション結果を確認する担当者や，1枚の画像に複数人でアノテーションして多数決結果を採用する，などアノテーション品質を担保することが考えられる．
-でも本当に大量にデータがあれば，1人がアノテーションを間違ってしまっても，似たようなデータに対して他の人が正しいアノテーションを施していれば最尤推定のような結果が得られ，わざわざアノテーション結果を確認したり，複数人で多数決を取る必要も無いのでは？
-まず簡単に，同じデータに対して複数の異なるラベルがついている状況を考える．識別器をNNとして最尤推定を考えると多数派のラベルに分類されるはず．またラベル比率が同数の場合は分類されるクラスはモデルの初期値に依存するはず．
-実験結果
-確かにそのような結果になる．
-次回以降，同じデータではなく，似たような画像に異なるラベルがついている場合を考える．問題設定としては Noisy Labels の問題．</description>
+      <description>大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．</description>
     </item>
     
     <item>
@@ -72,11 +53,7 @@ sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をイ�
       <pubDate>Thu, 03 Oct 2019 23:47:10 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/201910/20191003/</guid>
-      <description>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．
-5x5 や 7x7 ではなく 3x3 使われるのは，3x3 を2回適用すると 5x5 相当の Receptive Field が，3回適用すると 7x7 相当の Receptive Field が得られ，かつ活性化関数を通すことで非線形性が高くなりネットワークの表現能力が高くなる．パラメータ数が減り，計算量も減る．
-ここまでは知っていたことだけど，もう少し一般的に小さいカーネルサイズと大きいカーネルサイズの差をまとめておきたく調べていたら，Deciding optimal kernel size for CNN に書かれていた説明がわかりやすかったのでメモ．
-こちらより
-   &amp;quot;Smaller Filter Sizes&amp;rdquo; &amp;quot;Larger Filter Sizes&amp;rdquo;     &amp;quot;It has a smaller receptive field as it looks at very few pixels at once.&amp;rdquo; &amp;quot;Larger receptive field per layer.</description>
+      <description>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．</description>
     </item>
     
     <item>
@@ -85,9 +62,7 @@ sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をイ�
       <pubDate>Tue, 01 Oct 2019 23:07:59 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/201910/20191001/</guid>
-      <description>Disqus を導入してコメントを書き込めるようにした．
-以下を参考した．
- Comments HugoブログにDisqusでコメント欄をつけた Hugo Part 3 - Hugo にコメント欄を導入  既存のサービス等を追加するだけですが，毎日少しずつ機能を付け加えてカスタマイズできるのが楽しいです(._.)</description>
+      <description>Disqus を導入してコメントを書き込めるようにした．</description>
     </item>
     
     <item>
@@ -96,10 +71,7 @@ sudo apt install ./hugo_0.62.2_Linux-64bit.deb でOK.（上記はv0.62.2をイ�
       <pubDate>Mon, 30 Sep 2019 22:54:27 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/201909/20190930/</guid>
-      <description>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．
- Hugo に MathJax を導入して数式を書けるようにする ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)  $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$ と書くと，
-$$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
-のように埋め込める．</description>
+      <description>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．</description>
     </item>
     
     <item>
@@ -108,14 +80,7 @@ $$ H(X) = -\sum_{i} P_i \mathrm{log} P_i $$
       <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/201909/20190927/</guid>
-      <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．
-構築にあたり以下のサイトを参照した．
- 公式サイトの Quick Start 公式サイトの Host on Github Hugo + GitHub Pages でブログのプロトタイプを構築してみた。   2020/01/07 追記 久しぶりに更新しようと思ったらブログや記事の作り方を忘れてしまっていたので，具体的な手順を自分でも書いておく．
-環境  Ubuntu 18.04 LTS Hugo 0.62.2  手順 1. 新しいサイトを作る $ hugo new site PROJECT_NAME 2. Hugo を起動する 生成された PROJECT_NAME フォルダ以下に移動して，hugo を起動する
-hugo server http://localhost:1313 にアクセスできることを確認する．
-3. テーマを追加する 手順1. の時点で PROJECT_NAME フォルダ以下に themes フォルダが作れるので，https://themes.gohugo.io/ から好みのテーマを clone する．
-clone したテーマ名を config.toml に書き込む．
-theme = &amp;quot;ananke&amp;quot; のように．</description>
+      <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．</description>
     </item>
     
     <item>
@@ -124,7 +89,7 @@ theme = &amp;quot;ananke&amp;quot; のように．</description>
       <pubDate>Fri, 27 Sep 2019 00:26:04 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/posts/firstpost/</guid>
-      <description>This is my first post!!</description>
+      <description>This is my first post!</description>
     </item>
     
   </channel>

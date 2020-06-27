@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on reinlog</title>
+    <link>https://reinlearn.github.io/tags/github/</link>
+    <description>Recent content in github on reinlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2019 01:22:18 +0900</lastBuildDate>
+    
+	<atom:link href="https://reinlearn.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo &#43; GitHub Pages でブログをつくった</title>
+      <link>https://reinlearn.github.io/posts/201909/20190927/</link>
+      <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/201909/20190927/</guid>
+      <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．</description>
+    </item>
+    
+  </channel>
+</rss>

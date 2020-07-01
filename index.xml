@@ -6,10 +6,19 @@
     <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2020 09:42:32 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>シンタックスハイライトを適用する</title>
+      <link>https://reinlearn.github.io/posts/202007/20200701/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202007/20200701/</guid>
+      <description>参考  hugo 単体でシンタックスハイライト適用  ソースコードをハイライト表示する (highlight)  </description>
+    </item>
     
     <item>
       <title>pyenv 環境下で git submodule が使えなくなったときのメモ</title>

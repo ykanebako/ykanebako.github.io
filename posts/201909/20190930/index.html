@@ -26,6 +26,7 @@
 	<div class="container wrapper post">
 		<div class="header">
 	<base href="https://reinlearn.github.io/">
+	<link rel="stylesheet" href="https://reinlearn.github.io/css/syntax.css" />
 	<h1 class="site-title"><a href="https://reinlearn.github.io/">reinlog</a></h1>
 	<div class="site-description"><nav class="nav social">
 			<ul class="flat"><a href="https://github.com/reinlearn" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/reinlearn" title="Twitter"><i data-feather="twitter"></i></a></ul>
@@ -63,10 +64,16 @@
 
 		<div class="markdown">
 			<p>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．</p>
-<ul>
-<li><a href="https://m0t0k1ch1st0ry.com/blog/2017/10/07/mathjax/">Hugo に MathJax を導入して数式を書けるようにする</a></li>
-<li><a href="https://maku77.github.io/hugo/settings/math-jax.html">ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)</a></li>
-</ul>
+<p>テンプレートの <code>themes/layouts/partials/footer.html</code> に，</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span><span class="p"></span><span class="p">&gt;</span><span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML&#34;</span><span class="p"></span><span class="p">&gt;</span><span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/x-mathjax-config&#34;</span><span class="p"></span><span class="p">&gt;</span>
+  <span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">(</span><span class="p">{</span>
+      <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span><span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[</span><span class="p">[</span><span class="s1">&#39;$&#39;</span><span class="p">,</span><span class="s1">&#39;$&#39;</span><span class="p">]</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;\\(&#39;</span><span class="p">,</span><span class="s1">&#39;\\)&#39;</span><span class="p">]</span><span class="p">]</span><span class="p">}</span>
+  <span class="p">}</span><span class="p">)</span><span class="p">;</span>
+<span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
+</code></pre></div><p>を追記すればOK．（1行目と2行目はどちらかでOKかも）</p>
+<p>これで，</p>
 <pre><code>$$
 H(X) = -\sum_{i} P_i \mathrm{log} P_i
 $$
@@ -75,6 +82,11 @@ $$
 H(X) = -\sum_{i} P_i \mathrm{log} P_i
 $$</p>
 <p>のように埋め込める．</p>
+<h4 id="参考">参考</h4>
+<ul>
+<li><a href="https://m0t0k1ch1st0ry.com/blog/2017/10/07/mathjax/">Hugo に MathJax を導入して数式を書けるようにする</a></li>
+<li><a href="https://maku77.github.io/hugo/settings/math-jax.html">ページ内に Tex 形式の数式を埋め込めるようにする (MathJax)</a></li>
+</ul>
 
 		</div>
 
@@ -120,8 +132,8 @@ if (!doNotTrack) {
 </script>
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
-<script>feather.replace()</script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>feather.replace()</script><script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
       tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}

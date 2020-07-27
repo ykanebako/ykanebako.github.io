@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>memo on reinlog</title>
+    <link>https://reinlearn.github.io/tags/memo/</link>
+    <description>Recent content in memo on reinlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
+    
+	<atom:link href="https://reinlearn.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dash, Shiny, and Streamlit compare</title>
+      <link>https://reinlearn.github.io/posts/202007/20200727/</link>
+      <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202007/20200727/</guid>
+      <description>こちらの比較表がわかりやすい． 実際に使用してみるのはそのうち．</description>
+    </item>
+    
+  </channel>
+</rss>

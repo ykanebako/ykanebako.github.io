@@ -6,10 +6,19 @@
     <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dash, Shiny, and Streamlit compare</title>
+      <link>https://reinlearn.github.io/posts/202007/20200727/</link>
+      <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202007/20200727/</guid>
+      <description>こちらの比較表がわかりやすい． 実際に使用してみるのはそのうち．</description>
+    </item>
     
     <item>
       <title>シンタックスハイライトを適用する</title>

@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://reinlearn.github.io/tags/hugo/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <loc>https://reinlearn.github.io/posts/202007/20200727/</loc>
+    <lastmod>2020-07-27T21:56:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reinlearn.github.io/tags/machine-learning/</loc>
+    <lastmod>2020-07-27T21:56:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reinlearn.github.io/tags/memo/</loc>
+    <lastmod>2020-07-27T21:56:02+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://reinlearn.github.io/posts/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-27T21:56:02+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://reinlearn.github.io/</loc>
-    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-07-27T21:56:02+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://reinlearn.github.io/tags/</loc>
+    <lastmod>2020-07-27T21:56:02+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reinlearn.github.io/tags/hugo/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -45,11 +60,6 @@
   <url>
     <loc>https://reinlearn.github.io/posts/202003/20200330/</loc>
     <lastmod>2020-03-30T09:22:32+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://reinlearn.github.io/tags/machine-learning/</loc>
-    <lastmod>2019-10-07T22:31:19+09:00</lastmod>
   </url>
   
   <url>

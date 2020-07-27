@@ -6,10 +6,19 @@
     <description>Recent content in machine learning on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2019 22:31:19 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dash, Shiny, and Streamlit compare</title>
+      <link>https://reinlearn.github.io/posts/202007/20200727/</link>
+      <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202007/20200727/</guid>
+      <description>こちらの比較表がわかりやすい． 実際に使用してみるのはそのうち．</description>
+    </item>
     
     <item>
       <title>同じデータに異なる複数のラベルがついている場合について</title>

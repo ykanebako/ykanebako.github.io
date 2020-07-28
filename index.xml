@@ -110,5 +110,14 @@
       <description>This is my first post!</description>
     </item>
     
+    <item>
+      <title>About</title>
+      <link>https://reinlearn.github.io/about/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/about/</guid>
+      <description>(._.)</description>
+    </item>
+    
   </channel>
 </rss>

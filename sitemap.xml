@@ -103,13 +103,18 @@
   </url>
   
   <url>
-    <loc>https://reinlearn.github.io/about/</loc>
-    <lastmod>2019-09-27T01:04:20+09:00</lastmod>
+    <loc>https://reinlearn.github.io/posts/firstpost/</loc>
+    <lastmod>2019-09-27T00:26:04+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://reinlearn.github.io/posts/firstpost/</loc>
-    <lastmod>2019-09-27T00:26:04+09:00</lastmod>
+    <loc>https://reinlearn.github.io/about/</loc>
+    <lastmod>2000-01-01T00:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://reinlearn.github.io/about/</loc>
+    <lastmod>2000-01-01T00:00:00+09:00</lastmod>
   </url>
   
 </urlset>

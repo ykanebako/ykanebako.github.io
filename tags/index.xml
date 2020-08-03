@@ -6,10 +6,19 @@
     <description>Recent content in Tags on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 00:09:49 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>memo</title>
+      <link>https://reinlearn.github.io/tags/memo/</link>
+      <pubDate>Tue, 04 Aug 2020 00:09:49 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/tags/memo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>machine learning</title>
@@ -17,15 +26,6 @@
       <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
       
       <guid>https://reinlearn.github.io/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>memo</title>
-      <link>https://reinlearn.github.io/tags/memo/</link>
-      <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
-      
-      <guid>https://reinlearn.github.io/tags/memo/</guid>
       <description></description>
     </item>
     

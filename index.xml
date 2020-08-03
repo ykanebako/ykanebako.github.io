@@ -6,10 +6,19 @@
     <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 00:09:49 +0900</lastBuildDate>
     
 	<atom:link href="https://reinlearn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Concept Drift</title>
+      <link>https://reinlearn.github.io/posts/202008/20200804/</link>
+      <pubDate>Tue, 04 Aug 2020 00:09:49 +0900</pubDate>
+      
+      <guid>https://reinlearn.github.io/posts/202008/20200804/</guid>
+      <description>コンセプトドリフトという分野？を知ったのでメモ．データの分布は変わらないけど，時代によって意味や解釈が変わったデータを指す．言語が分かりやすい例．</description>
+    </item>
     
     <item>
       <title>Dash, Shiny, and Streamlit compare</title>

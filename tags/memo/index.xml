@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>memo on reinlog</title>
-    <link>https://reinlearn.github.io/tags/memo/</link>
+    <link>https://ykanebako.github.io/tags/memo/</link>
     <description>Recent content in memo on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Aug 2020 00:09:49 +0900</lastBuildDate>
     
-	<atom:link href="https://reinlearn.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ykanebako.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Concept Drift</title>
-      <link>https://reinlearn.github.io/posts/202008/20200804/</link>
+      <link>https://ykanebako.github.io/posts/202008/20200804/</link>
       <pubDate>Tue, 04 Aug 2020 00:09:49 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202008/20200804/</guid>
+      <guid>https://ykanebako.github.io/posts/202008/20200804/</guid>
       <description>コンセプトドリフトという分野？を知ったのでメモ．データの分布は変わらないけど，時代によって意味や解釈が変わったデータを指す．言語が分かりやすい例．</description>
     </item>
     
     <item>
       <title>Dash, Shiny, and Streamlit compare</title>
-      <link>https://reinlearn.github.io/posts/202007/20200727/</link>
+      <link>https://ykanebako.github.io/posts/202007/20200727/</link>
       <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202007/20200727/</guid>
+      <guid>https://ykanebako.github.io/posts/202007/20200727/</guid>
       <description>こちらの比較表がわかりやすい． 実際に使用してみるのはそのうち．</description>
     </item>
     

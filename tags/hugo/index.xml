@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on reinlog</title>
-    <link>https://reinlearn.github.io/tags/hugo/</link>
+    <link>https://ykanebako.github.io/tags/hugo/</link>
     <description>Recent content in hugo on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://reinlearn.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ykanebako.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>シンタックスハイライトを適用する</title>
-      <link>https://reinlearn.github.io/posts/202007/20200701/</link>
+      <link>https://ykanebako.github.io/posts/202007/20200701/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202007/20200701/</guid>
+      <guid>https://ykanebako.github.io/posts/202007/20200701/</guid>
       <description>参考  hugo 単体でシンタックスハイライト適用  ソースコードをハイライト表示する (highlight)  </description>
     </item>
     
     <item>
       <title>hugoをgithub.io にホストできなくなったとき</title>
-      <link>https://reinlearn.github.io/posts/202003/20200330_2/</link>
+      <link>https://ykanebako.github.io/posts/202003/20200330_2/</link>
       <pubDate>Mon, 30 Mar 2020 09:32:32 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202003/20200330_2/</guid>
+      <guid>https://ykanebako.github.io/posts/202003/20200330_2/</guid>
       <description>久しぶりに記事を記事を書いたら github.</description>
     </item>
     
     <item>
       <title>任意のバージョンの Hugo をインストールする</title>
-      <link>https://reinlearn.github.io/posts/202003/20200330/</link>
+      <link>https://ykanebako.github.io/posts/202003/20200330/</link>
       <pubDate>Mon, 30 Mar 2020 09:22:32 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202003/20200330/</guid>
+      <guid>https://ykanebako.github.io/posts/202003/20200330/</guid>
       <description>自宅のPCをクリーンインストールした後，Hugoをインストールしたらデフォルトで0.40.1が入ってしまい，今使っているテーマは対応してないと言われた．</description>
     </item>
     
     <item>
       <title>Hugo で数式を書けるようにした</title>
-      <link>https://reinlearn.github.io/posts/201909/20190930/</link>
+      <link>https://ykanebako.github.io/posts/201909/20190930/</link>
       <pubDate>Mon, 30 Sep 2019 22:54:27 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201909/20190930/</guid>
+      <guid>https://ykanebako.github.io/posts/201909/20190930/</guid>
       <description>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．</description>
     </item>
     
     <item>
       <title>Hugo &#43; GitHub Pages でブログをつくった</title>
-      <link>https://reinlearn.github.io/posts/201909/20190927/</link>
+      <link>https://ykanebako.github.io/posts/201909/20190927/</link>
       <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201909/20190927/</guid>
+      <guid>https://ykanebako.github.io/posts/201909/20190927/</guid>
       <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．</description>
     </item>
     

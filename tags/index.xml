@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on reinlog</title>
-    <link>https://reinlearn.github.io/tags/</link>
+    <link>https://ykanebako.github.io/tags/</link>
     <description>Recent content in Tags on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Aug 2020 00:09:49 +0900</lastBuildDate>
     
-	<atom:link href="https://reinlearn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ykanebako.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>memo</title>
-      <link>https://reinlearn.github.io/tags/memo/</link>
+      <link>https://ykanebako.github.io/tags/memo/</link>
       <pubDate>Tue, 04 Aug 2020 00:09:49 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/memo/</guid>
+      <guid>https://ykanebako.github.io/tags/memo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>https://reinlearn.github.io/tags/machine-learning/</link>
+      <link>https://ykanebako.github.io/tags/machine-learning/</link>
       <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/machine-learning/</guid>
+      <guid>https://ykanebako.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://reinlearn.github.io/tags/hugo/</link>
+      <link>https://ykanebako.github.io/tags/hugo/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/hugo/</guid>
+      <guid>https://ykanebako.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://reinlearn.github.io/tags/git/</link>
+      <link>https://ykanebako.github.io/tags/git/</link>
       <pubDate>Mon, 30 Mar 2020 09:42:32 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/git/</guid>
+      <guid>https://ykanebako.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deep learning</title>
-      <link>https://reinlearn.github.io/tags/deep-learning/</link>
+      <link>https://ykanebako.github.io/tags/deep-learning/</link>
       <pubDate>Thu, 03 Oct 2019 23:47:10 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/deep-learning/</guid>
+      <guid>https://ykanebako.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>disqus</title>
-      <link>https://reinlearn.github.io/tags/disqus/</link>
+      <link>https://ykanebako.github.io/tags/disqus/</link>
       <pubDate>Tue, 01 Oct 2019 23:07:59 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/disqus/</guid>
+      <guid>https://ykanebako.github.io/tags/disqus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://reinlearn.github.io/tags/github/</link>
+      <link>https://ykanebako.github.io/tags/github/</link>
       <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/tags/github/</guid>
+      <guid>https://ykanebako.github.io/tags/github/</guid>
       <description></description>
     </item>
     

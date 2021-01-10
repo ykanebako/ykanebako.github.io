@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>reinlog</title>
-    <link>https://reinlearn.github.io/</link>
+    <link>https://ykanebako.github.io/</link>
     <description>Recent content on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Dec 2020 14:42:03 +0900</lastBuildDate>
     
-	<atom:link href="https://reinlearn.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ykanebako.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>2020 年の振り返り</title>
-      <link>https://reinlearn.github.io/posts/202012/20201231/</link>
+      <link>https://ykanebako.github.io/posts/202012/20201231/</link>
       <pubDate>Thu, 31 Dec 2020 14:42:03 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202012/20201231/</guid>
+      <guid>https://ykanebako.github.io/posts/202012/20201231/</guid>
       <description>仕事 ご多分にもれず，コロナが日本でも流行り始めた2020年3月辺りから基本的に在宅勤務になった．結局4月以降出社したのは5営業日くらい．VS Code の SSH 接続に助けられてほぼ出社するのと変わらない生産性を維持できた気がする．コロナや在宅勤務とは関係無いけど，会議が増えた．来年はもっと生産性を上げていきたい．あとテーマは決まったいるので研究進めて論文を出したい．</description>
     </item>
     
     <item>
       <title>Concept Drift</title>
-      <link>https://reinlearn.github.io/posts/202008/20200804/</link>
+      <link>https://ykanebako.github.io/posts/202008/20200804/</link>
       <pubDate>Tue, 04 Aug 2020 00:09:49 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202008/20200804/</guid>
+      <guid>https://ykanebako.github.io/posts/202008/20200804/</guid>
       <description>コンセプトドリフトという分野？を知ったのでメモ．データの分布は変わらないけど，時代によって意味や解釈が変わったデータを指す．言語が分かりやすい例．</description>
     </item>
     
     <item>
       <title>Dash, Shiny, and Streamlit compare</title>
-      <link>https://reinlearn.github.io/posts/202007/20200727/</link>
+      <link>https://ykanebako.github.io/posts/202007/20200727/</link>
       <pubDate>Mon, 27 Jul 2020 21:56:02 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202007/20200727/</guid>
+      <guid>https://ykanebako.github.io/posts/202007/20200727/</guid>
       <description>こちらの比較表がわかりやすい． 実際に使用してみるのはそのうち．</description>
     </item>
     
     <item>
       <title>シンタックスハイライトを適用する</title>
-      <link>https://reinlearn.github.io/posts/202007/20200701/</link>
+      <link>https://ykanebako.github.io/posts/202007/20200701/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202007/20200701/</guid>
+      <guid>https://ykanebako.github.io/posts/202007/20200701/</guid>
       <description>参考  hugo 単体でシンタックスハイライト適用  ソースコードをハイライト表示する (highlight)  </description>
     </item>
     
     <item>
       <title>pyenv 環境下で git submodule が使えなくなったときのメモ</title>
-      <link>https://reinlearn.github.io/posts/202003/20200330_3/</link>
+      <link>https://ykanebako.github.io/posts/202003/20200330_3/</link>
       <pubDate>Mon, 30 Mar 2020 09:42:32 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202003/20200330_3/</guid>
+      <guid>https://ykanebako.github.io/posts/202003/20200330_3/</guid>
       <description>git submodule コマンドを使おうとしたら pyenv のパスを参照して gettext.</description>
     </item>
     
     <item>
       <title>hugoをgithub.io にホストできなくなったとき</title>
-      <link>https://reinlearn.github.io/posts/202003/20200330_2/</link>
+      <link>https://ykanebako.github.io/posts/202003/20200330_2/</link>
       <pubDate>Mon, 30 Mar 2020 09:32:32 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202003/20200330_2/</guid>
+      <guid>https://ykanebako.github.io/posts/202003/20200330_2/</guid>
       <description>久しぶりに記事を記事を書いたら github.</description>
     </item>
     
     <item>
       <title>任意のバージョンの Hugo をインストールする</title>
-      <link>https://reinlearn.github.io/posts/202003/20200330/</link>
+      <link>https://ykanebako.github.io/posts/202003/20200330/</link>
       <pubDate>Mon, 30 Mar 2020 09:22:32 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/202003/20200330/</guid>
+      <guid>https://ykanebako.github.io/posts/202003/20200330/</guid>
       <description>自宅のPCをクリーンインストールした後，Hugoをインストールしたらデフォルトで0.40.1が入ってしまい，今使っているテーマは対応してないと言われた．</description>
     </item>
     
     <item>
       <title>同じデータに異なる複数のラベルがついている場合について</title>
-      <link>https://reinlearn.github.io/posts/201910/20191007/</link>
+      <link>https://ykanebako.github.io/posts/201910/20191007/</link>
       <pubDate>Mon, 07 Oct 2019 22:31:19 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201910/20191007/</guid>
+      <guid>https://ykanebako.github.io/posts/201910/20191007/</guid>
       <description>大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．</description>
     </item>
     
     <item>
       <title>CNN のカーネルサイズについてのメモ</title>
-      <link>https://reinlearn.github.io/posts/201910/20191003/</link>
+      <link>https://ykanebako.github.io/posts/201910/20191003/</link>
       <pubDate>Thu, 03 Oct 2019 23:47:10 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201910/20191003/</guid>
+      <guid>https://ykanebako.github.io/posts/201910/20191003/</guid>
       <description>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．</description>
     </item>
     
     <item>
       <title>Disqus でコメントを書き込めるようにした</title>
-      <link>https://reinlearn.github.io/posts/201910/20191001/</link>
+      <link>https://ykanebako.github.io/posts/201910/20191001/</link>
       <pubDate>Tue, 01 Oct 2019 23:07:59 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201910/20191001/</guid>
+      <guid>https://ykanebako.github.io/posts/201910/20191001/</guid>
       <description>Disqus を導入してコメントを書き込めるようにした．</description>
     </item>
     
     <item>
       <title>Hugo で数式を書けるようにした</title>
-      <link>https://reinlearn.github.io/posts/201909/20190930/</link>
+      <link>https://ykanebako.github.io/posts/201909/20190930/</link>
       <pubDate>Mon, 30 Sep 2019 22:54:27 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201909/20190930/</guid>
+      <guid>https://ykanebako.github.io/posts/201909/20190930/</guid>
       <description>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．</description>
     </item>
     
     <item>
       <title>Hugo &#43; GitHub Pages でブログをつくった</title>
-      <link>https://reinlearn.github.io/posts/201909/20190927/</link>
+      <link>https://ykanebako.github.io/posts/201909/20190927/</link>
       <pubDate>Fri, 27 Sep 2019 01:22:18 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201909/20190927/</guid>
+      <guid>https://ykanebako.github.io/posts/201909/20190927/</guid>
       <description>最近は Markdown で勉強したメモを残すことが多いので，せっかくなので少しずつ公開してみる．はてなブログとかでもいいかと思ったけど，勉強を兼ねて Hugo + Github Pages でつくってみた．</description>
     </item>
     
     <item>
       <title>Hello World!</title>
-      <link>https://reinlearn.github.io/posts/firstpost/</link>
+      <link>https://ykanebako.github.io/posts/firstpost/</link>
       <pubDate>Fri, 27 Sep 2019 00:26:04 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/firstpost/</guid>
+      <guid>https://ykanebako.github.io/posts/firstpost/</guid>
       <description>This is my first post!</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://reinlearn.github.io/about/</link>
+      <link>https://ykanebako.github.io/about/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/about/</guid>
+      <guid>https://ykanebako.github.io/about/</guid>
       <description>(._.)</description>
     </item>
     

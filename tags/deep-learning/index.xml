@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deep learning on reinlog</title>
-    <link>https://reinlearn.github.io/tags/deep-learning/</link>
+    <link>https://ykanebako.github.io/tags/deep-learning/</link>
     <description>Recent content in deep learning on reinlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Oct 2019 23:47:10 +0900</lastBuildDate>
     
-	<atom:link href="https://reinlearn.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ykanebako.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CNN のカーネルサイズについてのメモ</title>
-      <link>https://reinlearn.github.io/posts/201910/20191003/</link>
+      <link>https://ykanebako.github.io/posts/201910/20191003/</link>
       <pubDate>Thu, 03 Oct 2019 23:47:10 +0900</pubDate>
       
-      <guid>https://reinlearn.github.io/posts/201910/20191003/</guid>
+      <guid>https://ykanebako.github.io/posts/201910/20191003/</guid>
       <description>最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．</description>
     </item>
     

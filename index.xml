@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reinlog</title>
+    <title>log</title>
     <link>https://ykanebako.github.io/</link>
-    <description>Recent content on reinlog</description>
+    <description>Recent content on log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 Dec 2020 14:42:03 +0900</lastBuildDate>

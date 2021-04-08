@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>毎日書くことが大切 - log</title><link rel="icon" type="image/png" href=images/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="毎日書くことが大切" />
+<meta property="og:description" content="最近，人生で初めて英語でフルペーパーの論文を書いてサブミットした．まずは打席に立ってバットを振れたことが素直に嬉しい．次はヒット (accept) を打ちたい．" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ykanebako.github.io/posts/202104/20210405/" />
+<meta property="article:published_time" content="2021-04-05T11:28:28+09:00" />
+<meta property="article:modified_time" content="2021-04-05T11:28:28+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="毎日書くことが大切"/>
+<meta name="twitter:description" content="最近，人生で初めて英語でフルペーパーの論文を書いてサブミットした．まずは打席に立ってバットを振れたことが素直に嬉しい．次はヒット (accept) を打ちたい．"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://ykanebako.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://ykanebako.github.io/css/main.css" />
+
+	<script src="https://ykanebako.github.io/js/feather.min.js"></script>
+	
+	<script src="https://ykanebako.github.io/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://ykanebako.github.io/">
+	<h1 class="site-title"><a href="https://ykanebako.github.io/">log</a></h1>
+	<div class="site-description"><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/ykanebako" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/ykanebako" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">毎日書くことが大切</h1>
+			<div class="meta">Posted at &mdash; Apr 5, 2021</div>
+			<div class="post-tags">
+				
+					
+						<nav class="nav tags">
+								<ul class="flat">
+									
+									<li><a href="/tags/productivity">productivity</a></li>
+									
+								</ul>
+						</nav>
+					
+				
+			</div>
+		</div>
+
+		<div class="markdown">
+			<p>最近，人生で初めて英語でフルペーパーの論文を書いてサブミットした．まずは打席に立ってバットを振れたことが素直に嬉しい．次はヒット (accept) を打ちたい．</p>
+<p>論文執筆は簡単ではなく，スケジュール的にもギリギリでほとんど推敲する時間が無かったことが反省点．理想としては締切の2週間前，可能なら1ヶ月前に書き上げて，そこから何度も推敲を重ねたいところ．余裕を持って書き上げるには，<a href="https://www.kspub.co.jp/book/detail/1531536.html">できる研究者の論文生産術</a> でも書かれているが，毎日執筆時間を確保することが重要らしい．企業勤めで研究部門でない自分でも論文を出し続ける（そうじゃなくても日々のドキュメンテーションを効率良く行う）ために，次のことを意識したい．</p>
+<h1 id="論文の読み方まとめ方">論文の読み方・まとめ方</h1>
+<p>論文を読んだら以下については真面目にメモする．</p>
+<ul>
+<li>提案手法の概要</li>
+<li>提案手法のモチベーション・着想</li>
+<li>実験結果，または不足していそうな実験 (Negativeな結果)</li>
+</ul>
+<p>以前は <a href="https://lafrenze.hatenablog.com/entry/2015/08/04/120205">落合先生のフォーマット</a> で論文をまとめていたが，画像まで貼るのが面倒でやめてしまっていた．その後，落合先生のフォーマットを独自に改良してメモしていたが，画像を貼らない代わりに項目を増やしてしまったため，結局続かなかった．なので，まずは最低限上記の3点を抑えるように読み，メモしたい．</p>
+<h1 id="実験結果を丁寧に残す">実験結果を丁寧に残す</h1>
+<p>以下について必ずメモする</p>
+<ul>
+<li>実験の目的，仮説</li>
+<li>検証条件</li>
+<li>結果，考察，次にやること</li>
+</ul>
+<p>普通誰もがやっていることだけど，しっかり明文化することを意識したい．あと最近，実験結果の管理に <a href="https://mlflow.org/">MLflow</a> と <a href="https://hydra.cc/">Hydra</a> を導入したらいい感じだったので引き続き使っていきたい．</p>
+<h1 id="ツール">ツール</h1>
+<p>論文管理は <a href="https://paperpile.com/">Paperpile</a>，ソースコード管理は Github でやるとして，ノートテイキングはとりあえず Google Docs でやる．ある程度結果とかがまとまってきたタイミングで Overleaf とかでしっかり文書に残すと良さそう．</p>
+<p>まずは一ヶ月やってみる．</p>
+
+		</div>
+
+		
+		<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		
+		if (window.location.hostname == "localhost")
+			return;
+
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		var disqus_shortname = 'log';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+		Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  });
+</script>
+
+<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-149374194-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

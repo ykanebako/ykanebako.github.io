@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>productivity on log</title>
+    <link>https://ykanebako.github.io/tags/productivity/</link>
+    <description>Recent content in productivity on log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Apr 2021 11:28:28 +0900</lastBuildDate>
+    
+	<atom:link href="https://ykanebako.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>毎日書くことが大切</title>
+      <link>https://ykanebako.github.io/posts/202104/20210405/</link>
+      <pubDate>Mon, 05 Apr 2021 11:28:28 +0900</pubDate>
+      
+      <guid>https://ykanebako.github.io/posts/202104/20210405/</guid>
+      <description>最近，人生で初めて英語でフルペーパーの論文を書いてサブミットした．まずは打席に立ってバットを振れたことが素直に嬉しい．次はヒット (accept) を打ちたい．</description>
+    </item>
+    
+    <item>
+      <title>生産性を高めたい</title>
+      <link>https://ykanebako.github.io/posts/20210205/</link>
+      <pubDate>Fri, 05 Feb 2021 21:40:33 +0900</pubDate>
+      
+      <guid>https://ykanebako.github.io/posts/20210205/</guid>
+      <description>以前までは睡眠時間を削って時間を捻出していたが，夜はしっかり寝て起きてる時間の生産性を上げたほうが良いということにやっと気がついた．しっかり寝たほうが体調も良い．十分な睡眠を確保すると必然と活動時間は短くなってしまう．なので可能な限り仕事や勉強の生産性を高めたい．しばらくアプリやテクニックを使ってようやく自分の型が定まってきたのでメモ．</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,9 +6,10 @@
 	<meta property="og:title" content="Hugo で数式を書けるようにした" />
 <meta property="og:description" content="GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ykanebako.github.io/posts/201909/20190930/" />
-<meta property="article:published_time" content="2019-09-30T22:54:27+09:00" />
-<meta property="article:modified_time" content="2019-09-30T22:54:27+09:00" />
+<meta property="og:url" content="https://ykanebako.github.io/posts/201909/20190930/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-09-30T22:54:27&#43;09:00" />
+<meta property="article:modified_time" content="2019-09-30T22:54:27&#43;09:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo で数式を書けるようにした"/>
 <meta name="twitter:description" content="GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．"/>
@@ -69,13 +70,13 @@
 		<div class="markdown">
 			<p>GitHub 上の Markdown は通常の Markdown 記法で書いた数式がレンダリングされないことを知った．このブログは勉強メモの公開が目的だったけど，数式が書けないならはてなブログに戻ろうかな？と思ったが，どうやらテーマに MathJax を導入すれば数式を書けるらしい．</p>
 <p>テンプレートの <code>themes/layouts/partials/footer.html</code> に，</p>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span><span class="p"></span><span class="p">&gt;</span><span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML&#34;</span><span class="p"></span><span class="p">&gt;</span><span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/x-mathjax-config&#34;</span><span class="p"></span><span class="p">&gt;</span>
-  <span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">(</span><span class="p">{</span>
-      <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span><span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[</span><span class="p">[</span><span class="s1">&#39;$&#39;</span><span class="p">,</span><span class="s1">&#39;$&#39;</span><span class="p">]</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;\\(&#39;</span><span class="p">,</span><span class="s1">&#39;\\)&#39;</span><span class="p">]</span><span class="p">]</span><span class="p">}</span>
-  <span class="p">}</span><span class="p">)</span><span class="p">;</span>
-<span class="p">&lt;</span><span class="p">/</span><span class="nt">script</span><span class="p">&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/javascript&#34;</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/x-mathjax-config&#34;</span><span class="p">&gt;</span>
+  <span class="nx">MathJax</span><span class="p">.</span><span class="nx">Hub</span><span class="p">.</span><span class="nx">Config</span><span class="p">({</span>
+      <span class="nx">tex2jax</span><span class="o">:</span> <span class="p">{</span><span class="nx">inlineMath</span><span class="o">:</span> <span class="p">[[</span><span class="s1">&#39;$&#39;</span><span class="p">,</span><span class="s1">&#39;$&#39;</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;\\(&#39;</span><span class="p">,</span><span class="s1">&#39;\\)&#39;</span><span class="p">]]}</span>
+  <span class="p">});</span>
+<span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </code></pre></div><p>を追記すればOK．（1行目と2行目はどちらかでOKかも）</p>
 <p>これで，</p>
 <pre><code>$$

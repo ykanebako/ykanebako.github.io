@@ -6,11 +6,7 @@
     <description>Recent content in machine-learning on log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
-    
-	<atom:link href="https://ykanebako.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate><atom:link href="https://ykanebako.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dash, Shiny, and Streamlit compare</title>
       <link>https://ykanebako.github.io/posts/202007/20200727/</link>

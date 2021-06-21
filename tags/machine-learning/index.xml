@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>machine learning on log</title>
+    <title>machine-learning on log</title>
     <link>https://ykanebako.github.io/tags/machine-learning/</link>
-    <description>Recent content in machine learning on log</description>
+    <description>Recent content in machine-learning on log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jul 2020 21:56:02 +0900</lastBuildDate>
@@ -18,15 +18,6 @@
       
       <guid>https://ykanebako.github.io/posts/202007/20200727/</guid>
       <description>こちらの比較表がわかりやすい． 実際に使用してみるのはそのうち．</description>
-    </item>
-    
-    <item>
-      <title>同じデータに異なる複数のラベルがついている場合について</title>
-      <link>https://ykanebako.github.io/posts/201910/20191007/</link>
-      <pubDate>Mon, 07 Oct 2019 22:31:19 +0900</pubDate>
-      
-      <guid>https://ykanebako.github.io/posts/201910/20191007/</guid>
-      <description>大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．</description>
     </item>
     
   </channel>

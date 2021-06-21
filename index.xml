@@ -93,15 +93,6 @@
     </item>
     
     <item>
-      <title>同じデータに異なる複数のラベルがついている場合について</title>
-      <link>https://ykanebako.github.io/posts/201910/20191007/</link>
-      <pubDate>Mon, 07 Oct 2019 22:31:19 +0900</pubDate>
-      
-      <guid>https://ykanebako.github.io/posts/201910/20191007/</guid>
-      <description>大量の画像データセットがあり，1枚に対して1人がアノテーションを行うとする．データセットには同じような見た目の画像には同じアノテーションが施されることが期待されるが，そうならなかった場合，このデータセットを使うとどうなるのか．</description>
-    </item>
-    
-    <item>
       <title>CNN のカーネルサイズについてのメモ</title>
       <link>https://ykanebako.github.io/posts/201910/20191003/</link>
       <pubDate>Thu, 03 Oct 2019 23:47:10 +0900</pubDate>

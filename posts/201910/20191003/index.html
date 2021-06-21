@@ -6,10 +6,9 @@
 	<meta property="og:title" content="CNN のカーネルサイズについてのメモ" />
 <meta property="og:description" content="最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ykanebako.github.io/posts/201910/20191003/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-10-03T23:47:10&#43;09:00" />
-<meta property="article:modified_time" content="2019-10-03T23:47:10&#43;09:00" />
-
+<meta property="og:url" content="https://ykanebako.github.io/posts/201910/20191003/" />
+<meta property="article:published_time" content="2019-10-03T23:47:10+09:00" />
+<meta property="article:modified_time" content="2019-10-03T23:47:10+09:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="CNN のカーネルサイズについてのメモ"/>
 <meta name="twitter:description" content="最近の Convolutional Neural Network (CNN) で使われる kernel size は 3x3 か 1x1 がほとんど．"/>
@@ -75,38 +74,38 @@
 <table>
 <thead>
 <tr>
-<th>&ldquo;Smaller Filter Sizes&rdquo;</th>
-<th>&ldquo;Larger Filter Sizes&rdquo;</th>
+<th>&quot;Smaller Filter Sizes&rdquo;</th>
+<th>&quot;Larger Filter Sizes&rdquo;</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&ldquo;It has a smaller receptive field as it looks at very few pixels at once.&rdquo;</td>
-<td>&ldquo;Larger receptive field per layer.&rdquo;</td>
+<td>&quot;It has a smaller receptive field as it looks at very few pixels at once.&rdquo;</td>
+<td>&quot;Larger receptive field per layer.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;Highly local features extracted without much image overview.&rdquo;</td>
-<td>&ldquo;Quite generic features extracted spread across the image.&rdquo;</td>
+<td>&quot;Highly local features extracted without much image overview.&rdquo;</td>
+<td>&quot;Quite generic features extracted spread across the image.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;Therefore captures smaller, complex features in the image.&rdquo;</td>
-<td>&ldquo;Therefore captures the basic components in the image.&rdquo;</td>
+<td>&quot;Therefore captures smaller, complex features in the image.&rdquo;</td>
+<td>&quot;Therefore captures the basic components in the image.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;Amount of information extracted will be vast, maybe useful in later layers.&rdquo;</td>
-<td>&ldquo;Amount of information extracted are</td>
+<td>&quot;Amount of information extracted will be vast, maybe useful in later layers.&rdquo;</td>
+<td>&quot;Amount of information extracted are</td>
 </tr>
 <tr>
-<td>&ldquo;Slow reduction in the image dimension can make the network deep&rdquo;</td>
-<td>&ldquo;Fast reduction in the image dimension makes the network shallow&rdquo;</td>
+<td>&quot;Slow reduction in the image dimension can make the network deep&rdquo;</td>
+<td>&quot;Fast reduction in the image dimension makes the network shallow&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;Better weight sharing&rdquo;</td>
-<td>&ldquo;Poorer weight sharing&rdquo;</td>
+<td>&quot;Better weight sharing&rdquo;</td>
+<td>&quot;Poorer weight sharing&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;In an extreme scenario, using a 1x1 convolution is like treating each pixel as a useful feature.&rdquo;</td>
-<td>&ldquo;Using a image sized filter is equivalent to a fully connected layer.&rdquo;</td>
+<td>&quot;In an extreme scenario, using a 1x1 convolution is like treating each pixel as a useful feature.&rdquo;</td>
+<td>&quot;Using a image sized filter is equivalent to a fully connected layer.&rdquo;</td>
 </tr>
 </tbody>
 </table>
@@ -114,34 +113,34 @@
 <table>
 <thead>
 <tr>
-<th>&ldquo;Smaller Filter Sizes&rdquo;</th>
-<th>&ldquo;Larger Filter Sizes&rdquo;</th>
+<th>&quot;Smaller Filter Sizes&rdquo;</th>
+<th>&quot;Larger Filter Sizes&rdquo;</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&ldquo;Two 3x3 kernels result in an image size reduction by 4&rdquo;</td>
-<td>&ldquo;one 5x5 kernel results in same reduction.&rdquo;</td>
+<td>&quot;Two 3x3 kernels result in an image size reduction by 4&rdquo;</td>
+<td>&quot;one 5x5 kernel results in same reduction.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;We have used (3x3 + 3x3) = 18 weights. &quot;</td>
-<td>&ldquo;We used (5x5) = 25 weights.&rdquo;</td>
+<td>&quot;We have used (3x3 + 3x3) = 18 weights. &quot;</td>
+<td>&quot;We used (5x5) = 25 weights.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;So, we get lower no. of weights but more layers.&rdquo;</td>
-<td>&ldquo;Higher number of weights but lesser layers.&rdquo;</td>
+<td>&quot;So, we get lower no. of weights but more layers.&rdquo;</td>
+<td>&quot;Higher number of weights but lesser layers.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;Therefore, computationally efficient.&rdquo;</td>
-<td>&ldquo;And, this is computationally expensive.&rdquo;</td>
+<td>&quot;Therefore, computationally efficient.&rdquo;</td>
+<td>&quot;And, this is computationally expensive.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;With more layers, it learns complex, more non-linear features.&rdquo;</td>
-<td>&ldquo;With less layers, it learns simpler non linear features.&rdquo;</td>
+<td>&quot;With more layers, it learns complex, more non-linear features.&rdquo;</td>
+<td>&quot;With less layers, it learns simpler non linear features.&rdquo;</td>
 </tr>
 <tr>
-<td>&ldquo;With more layers, it necessitates the need for larger memory.&rdquo;</td>
-<td>&ldquo;And, it will use less memory for backpropogation.&rdquo;</td>
+<td>&quot;With more layers, it necessitates the need for larger memory.&rdquo;</td>
+<td>&quot;And, it will use less memory for backpropogation.&rdquo;</td>
 </tr>
 </tbody>
 </table>

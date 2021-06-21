@@ -6,15 +6,11 @@
     <description>Recent content in productivity on log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-<<<<<<< HEAD
     <lastBuildDate>Mon, 05 Apr 2021 11:28:28 +0900</lastBuildDate>
     
 	<atom:link href="https://ykanebako.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
     
-=======
-    <lastBuildDate>Mon, 05 Apr 2021 11:28:28 +0900</lastBuildDate><atom:link href="https://ykanebako.github.io/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 251ee6563f7c9c48cae9fa9cc502a74e8fd04d8e
     <item>
       <title>毎日書くことが大切</title>
       <link>https://ykanebako.github.io/posts/202104/20210405/</link>
@@ -34,8 +30,4 @@
     </item>
     
   </channel>
-<<<<<<< HEAD
 </rss>
-=======
-</rss>
->>>>>>> 251ee6563f7c9c48cae9fa9cc502a74e8fd04d8e

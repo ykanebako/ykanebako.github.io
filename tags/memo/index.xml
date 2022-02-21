@@ -6,11 +6,7 @@
     <description>Recent content in memo on log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2020 00:09:49 +0900</lastBuildDate>
-    
-	<atom:link href="https://ykanebako.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 Aug 2020 00:09:49 +0900</lastBuildDate><atom:link href="https://ykanebako.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Concept Drift</title>
       <link>https://ykanebako.github.io/posts/202008/20200804/</link>
